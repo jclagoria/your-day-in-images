@@ -11,9 +11,6 @@
     "url": "git+https://github.com/jclagoria/your-day-in-images.git"
   },
   "homepage": "https://github.com/jclagoria/your-day-in-images#readme",
-  "workspaces": [
-    "backend/*,frontend/*"
-  ],
   "keywords": [],
   "author": "",
   "license": "MIT",
