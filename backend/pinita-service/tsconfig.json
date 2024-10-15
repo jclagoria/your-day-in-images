@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2020",                        // Compile to ECMAScript 2020. Adjust based on Node.js version.
+    "module": "commonjs",                      // Use commonjs module resolution for Node.js.
+    "lib": ["es2020"],                         // Include type definitions for ECMAScript 2020.
+    "outDir": "./dist",                        // Output directory for compiled files.
+    "rootDir": "./src",                        // Root directory of source files.
+    "strict": true,                            // Enable all strict type-checking options.
+    "esModuleInterop": true,                   // Enables ES6 module emulation.
+    "skipLibCheck": true,                      // Skip type checking for all declaration files (*.d.ts).
+    "forceConsistentCasingInFileNames": true,  // Disallow inconsistently-cased references to the same file.
+    "moduleResolution": "node",                // Resolve modules using Node.js's module resolution algorithm.
+    "resolveJsonModule": true,                 // Allow importing of '.json' files.
+    "noImplicitReturns": true,                 // Report error when not all code paths in function return a value.
+    "noFallthroughCasesInSwitch": true         // Report errors for fallthrough cases in switch statement.
+  },
+  "include": [
+    "src/**/*"                                 // Include all files in the src directory.
+  ],
+  "exclude": [
+    "node_modules",                            // Exclude the node_modules directory.
+    "**/*.test.ts"                             // Exclude tests files.
+  ]
+}
